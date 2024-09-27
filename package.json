@@ -1,0 +1,37 @@
+{
+  "name": "ioc-pattern",
+  "version": "1.0.0",
+  "description": "demo how to use ioc and inversifyjs as tool for it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srdn25/ioc-pattern.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "ts",
+    "typescript",
+    "js",
+    "ioc",
+    "pattern"
+  ],
+  "author": "Denys Sorokin",
+  "license": "SEE LICENCE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/srdn25/ioc-pattern/issues"
+  },
+  "homepage": "https://github.com/srdn25/ioc-pattern#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2"
+  }
+}
