@@ -10,9 +10,9 @@
     "sourceMap": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "dist",
+    "outDir": "build",
     "newLine": "lf"
   },
   "include": ["./src/**/*", "./index.ts"],
-  "exclude": ["node_modules", "**/__tests__/*", "dist"]
+  "exclude": ["node_modules", "**/__tests__/*", "build"]
 }
