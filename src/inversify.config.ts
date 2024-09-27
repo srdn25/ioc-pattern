@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { Container } from 'inversify';
 import type { IApp, IGlobalConfig, IMongoConfig, IMongoLib, Logger, ILoggerList } from './interfaces';
 import { TYPES } from './types';

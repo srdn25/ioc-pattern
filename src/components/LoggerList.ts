@@ -4,6 +4,14 @@ import { TYPES } from '../types';
 
 @injectable()
 export class LoggerList implements ILoggerList {
-  @inject(TYPES.IConfidentialLogger) conf: Logger;
-  @inject(TYPES.IPublicLogger) public: Logger;
+  public conf: Logger;
+  public public: Logger;
+
+  constructor(
+    @inject(TYPES.IConfidentialLogger) conf: Logger,
+    @inject(TYPES.IPublicLogger) publicLogger: Logger
+  ) {
+    this.conf = conf;
+    this.public = publicLogger;
+  }
 }

@@ -7,7 +7,7 @@ export class App implements IApp {
   constructor(
     @inject(TYPES.IGlobalConfig) public readonly config: IGlobalConfig,
     @inject(TYPES.ILoggerList) public readonly logger: ILoggerList,
-    @inject(TYPES.IMongoLib) public mongoLib: IMongoLib,
+    @inject(TYPES.IMongoLib) public readonly mongoLib: IMongoLib,
   ) {}
 
   async sayHello(): Promise<void> {
