@@ -1,4 +1,3 @@
-import 'reflect-metadata';
 import { expect, jest, describe, beforeEach, it } from '@jest/globals';
 import { App } from './App';
 
